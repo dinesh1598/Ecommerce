@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class RingsComponent implements OnInit {
 
   constructor() { }
+  title="Rings";
   oldPrice=29000;
   newPrice=25000;
 

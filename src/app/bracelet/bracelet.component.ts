@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class BraceletComponent implements OnInit {
 
   constructor() { }
+  title="Bracelet";
   oldPrice=49000;
   newPrice=35999;
 
