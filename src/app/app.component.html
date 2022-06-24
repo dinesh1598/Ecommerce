@@ -1,0 +1,70 @@
+<nav class="navbar navbar-inverse">
+
+  <div class="container-fluid">
+    <img src="assets/img/logo.png" name="Fashine" alt="Fashion">
+    <ul class="left">
+      <li><a routerLink="earring">Earring</a></li>
+      <li><a routerLink="necklace"> Necklace</a></li>
+      <li><a routerLink="rings">Rings</a></li>
+      <li><a routerLink="bracelet">Bracelet</a></li>
+   </ul>
+   <ul class="right">
+    <li>
+        <a href="#">
+
+              <div class="icon"><i class="fa fa-gift" aria-hidden="true"></i></div>
+              <div class="name" data-text="rewards">Rewards</div>
+        </a>
+    </li>
+    <li>
+      <a href="#">
+
+            <div class="icon"> <i class="fa fa-list" aria-hidden="true"></i></div>
+            <div class="name" data-text="coupouns">Coupouns</div>
+      </a>
+  </li>
+  <li>
+    <a href="#">
+
+          <div class="icon"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+          <div class="name" data-text="favorites">Favorites</div>
+    </a>
+</li>
+<li>
+  <a href="#">
+
+        <div class="icon"><i class="fa fa-shopping-cart"></i></div>
+        <div class="cart_value">2</div>
+        <div class="name" data-text="cart">Cart</div>
+  </a>
+</li>
+
+ </ul>
+  </div>
+
+</nav>
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-3">
+            <app-earring> </app-earring>
+
+        </div>
+
+        <div class="col-md-3">
+            <app-necklace></app-necklace>
+        </div>
+
+        <div class="col-md-3">
+            <app-rings></app-rings>
+        </div>
+
+        <div class="col-md-3">
+            <app-bracelet></app-bracelet>
+        </div>
+    </div>
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
+
